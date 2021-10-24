@@ -1,0 +1,86 @@
+/* margin styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* selecting the background color */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: F9F9F9;
+}
+/* Adding style to the header */
+header.page-header {
+    background: no-repeat left;
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    box-align: center;
+}
+header {
+    padding:8px 20px;
+    background-color: #09015F;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFE699; 
+    margin: 0;
+    display: above;
+}
+header a {
+    text-decoration: none;
+    color: #FFE699;
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+/* hero image for background */
+section {
+    padding: 60px;
+    background-image: url("../images/humburger-1.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.hero-form { 
+    border: 2px solid #FFE699;
+    background-color:#09015F;
+    padding: 4px;
+    width: 400px;
+    color: #FFE699;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.form-input {
+    border: 2px solid #09015F;
+    display: block;
+    padding: 4px 15px;
+    font-size: 16px;
+    color: #09015F;
+    width: 80%;
+    margin-bottom: 0 5px;
+} 
+.hero-form button {
+    color:#09015F;
+    background-color: #FFE699;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
