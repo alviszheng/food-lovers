@@ -48,7 +48,7 @@ header nav ul li a {
 /* hero image for background */
 section {
     padding: 60px;
-    background-image: url("../images/humburger-1.jpg");
+    background-image: url("../images/pasta-1.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -61,7 +61,7 @@ section {
 
 .hero-form { 
     border: 2px solid #FFE699;
-    background-color:#09015F;
+    background-color:#09015F;    
     padding: 4px;
     width: 400px;
     color: #FFE699;
@@ -84,4 +84,23 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+}
+.intro {
+    text-align: center;
+}
+.intro h2 {
+    font-size: 55px;
+    color:#09015F;
+    display: inline-block;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #09015F; 
+}
+.intro P {
+    line-height: 1.7;
+    color: #09015F;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
 }
