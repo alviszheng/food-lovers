@@ -1,21 +1,31 @@
+.hidden {
+    display: none;
+}
+
+#measurement, #ingredient{
+    list-style-type: none;
+}
 
 .titleHero{
     display: flex;
     justify-content: space-between;
 }
 
-#foodLovers{
+#wallaby{
     border: coral 2px ridge;
 }
 
-#titleFoodlovers{
+#titleWallaby{
     position: relative ;
     top: 10px;
-    color: whitesmoke;
+    color: coral;
     font-size: 35px;
     font-weight: bolder;
 }
-
+#subHead{
+    position: relative;
+    top: -45px;
+}
 .hero-body{
     padding-bottom: 0px;
     padding-top: 30px;

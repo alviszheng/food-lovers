@@ -8,29 +8,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
     <link rel="stylesheet" href="css/stylesheet.css">
 
-    <title>Food Lovers: Find Your Recipe</title>
+    <title>Foodlovers: Recipe Finder</title>
 </head>
-
 <body>
 
     <!--Top "Hero" of the page-->
-    <section class="hero is-info is-small">
+    <section class="hero is-light is-small">
         <div class="hero-body">
-            <div class="container" id="heroContainer">
-                <div class="titleHero">
-                    <h1 id="titleFoodlovers">Food Lovers</h1>
-                </div>
-            </div>
+            <!-- <div class="container" id="heroContainer"> -->
+                    <h1 class="title is-light is-small" id="titleFoodlovers">FoodLovers</h1>
+                    
+            <!-- </div> -->
         </div>
     </section>
     <!-- End of Top part of page-->
     <!--Search Section-->
-    <!-- <section class="section">
+    <section class="section">
         <div class="container">
-            <div class="columns"> -->
-                <div class="column is-4">
+            <div class="columns">
+                <div class="column">
                     <!--Search box-->
-                    <div class="notification">
+                    <div class="notification is-primary is-size-3">
                         <form id="search-form">
                             <label class="label">Recipe Search</label>
                             <div class="field has-addons">
@@ -38,7 +36,7 @@
                                     <input class="input" type="text" placeholder="Search for Recipe" id="search-field">
                                 </div>
                                 <div class="control">
-                                    <a class="button is-dark" id="search-button">Search</a>
+                                    <a class="button is-info" id="search-button">Recipe Search</a>
                                 </div>
                             </div>
                         </form>
@@ -46,14 +44,83 @@
                     <!--Search history-->
                     <div class="notification has-background-grey-lighter" id="search-history">
                         <label class="label">Search History</label>
-                        <p id='search-history-help'> Return initial list of search results.</p>
+                        <p id='search-history-help'>Return initial list of search results.</p>
                         <ul id="search-history-list">
                         </ul>
                     </div>
                 </div>
-            <!-- </div>
+                <!--Display image and name and Ingredient section-->
+                <div class="column is-8">
+                    <div class="notification is-warning is-size-7" id="search-results-container" style="display: none;">
+                        <div class="columns is-multiline" id="search-results" style="background-color: azure;"></div>
+                    </div>
+                    <div class="notification is-default" id="recipe" style="display: none;">
+                        <div class="columns">
+                            <div class="column is-3">
+                                <img id="recipe_img"/>
+                            </div>
+                            <div class="column is-9">
+                                <h3 id="title" class="title"></h3>
+                                
+                                <div class="columns">
+                                    <div class="column is-3">
+                                        <ul id="measurement"></ul>
+                                    </div>
+                                    <div class="column is-4">
+                                        <ul id="ingredient"></ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <p id="instructions"></p>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- <div class="columns is-centered" id="video"> -->
+                                    
+                        <!-- </div> -->
+                        <br>
+                        <br>
+                      
+                        <!-- <div class="columns is-centered">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th><abbr title="Quantity">Qty</abbr></th>
+                                        <th>Unit</th>
+                                        <th>Food</th>
+                                        <th>Calories</th>
+                                        <th>Weight</th>
+                                        <th>Food Group</th>
+                                    </tr>
+                                </thead>
+                                <tfoot id="nutrition_foot">
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                        <th>Total</th>
+                                        <th id="total_cal">1290</th>
+                                        <th id="total_weight">560.08 g</th>
+                                        <th></th>
+                                    </tr>
+                                </tfoot>
+                                <tbody id="nutrition_body">
+                                </tbody>
+                            </table>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
         </div>
-    </section> -->
-    <script src="js/script.js"></script>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/recipe.js"></script>
+    <!-- <script src="js/nutritionix.js"></script> -->
+    <script src="js/search_history.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
