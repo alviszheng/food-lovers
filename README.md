@@ -2,7 +2,6 @@
 
 Github deployed link: https://alviszheng.github.io/food-lovers/
 
-First group project...
 
 ## Objective
 
@@ -29,9 +28,12 @@ First group project...
 * Finally, you must add your project to the portfolio that you created in Module 2.
 
 
-## Codebase
+## Server APIs
 
-* 
+* Cloudflare CSS stylesheet
+* Nutritionix API
+* Mmealdb recipe API
+
 
 ## Github
 
@@ -39,4 +41,4 @@ First group project...
 
 ## Project images 
 
-![Project Screenshot](#)
+![Project Screenshot](./css/images/deployed_site_screenshot.png)
