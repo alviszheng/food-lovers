@@ -32,7 +32,7 @@ Github deployed link: https://alviszheng.github.io/food-lovers/
 
 * Cloudflare CSS stylesheet
 * Nutritionix API
-* Mmealdb recipe API
+* Mealdb recipe API
 
 
 ## Github
