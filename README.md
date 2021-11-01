@@ -40,4 +40,3 @@ First group project...
 ## Project images 
 
 ![Project Screenshot](#)
-
